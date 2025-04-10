@@ -1,0 +1,74 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4CAF4F;
+  --ifm-color-primary-dark: #e09122;
+  --ifm-color-primary-darker: #c9821f;
+  --ifm-color-primary-darkest: #a56a1a;
+  --ifm-color-primary-light: #f9b644;
+  --ifm-color-primary-lighter: #f9c266;
+  --ifm-color-primary-lightest: #fad080;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4CAF4F;
+  --ifm-color-primary-dark: #e09122;
+  --ifm-color-primary-darker: #c9821f;
+  --ifm-color-primary-darkest: #a56a1a;
+  --ifm-color-primary-light: #f9b644;
+  --ifm-color-primary-lighter: #f9c266;
+  --ifm-color-primary-lightest: #fad080;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1); 
+  
+  --ifm-background-color: #121212; 
+  --ifm-background-color-secondary: #1c1c1c; 
+  --ifm-color-text: #f5f5f5; 
+  --ifm-color-text-secondary: #cccccc; 
+  --ifm-link-color: #4CAF4F; 
+}
+
+
+.footer {
+  background-color: #ffffff; 
+  color: white;
+}
+
+.footer__link-item {
+  color: white;
+}
+
+.footer__link-item:hover {
+  color: #ffe08a; 
+}
+
+.footer__copyright {
+  color: rgb(0, 0, 0);
+}
+
+[data-theme='dark'] .footer {
+  background-color: #1b1b1d;
+  color: #f5f5f5;
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: #f5f5f5; 
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: #ffe08a;
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: #f5f5f5; 
+}
+
+
+
