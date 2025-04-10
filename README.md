@@ -1,7 +1,7 @@
 
 # STS - Smart Training System
 
-
+## Grade: 19.7/20
 
 ## Project Abstract
 
